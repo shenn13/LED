@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  LED
+//
+//  Created by shen on 17/2/17.
+//  Copyright © 2017年 ZhouYong. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//屏幕的宽和高
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
+//所有视图背景颜色
+#define ViewBackgroundColor [UIColor colorWithRed:38.0/255 green:38.0/255 blue:38.0/255 alpha:1];
+
+//AdMob APPID 横幅ID
+#define AdMob_APP_ID @"ca-app-pub-4903381575382292~1388993566"
+#define AdMob_BannerViewAdUnitID @"ca-app-pub-4903381575382292/2865726763"
+
+//友盟统计
+#define UM_APP_KEY @"58a69dbf4ad1563127000728"
+
+
+
+
+#endif /* PrefixHeader_pch */
